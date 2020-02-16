@@ -1,0 +1,29 @@
+{% extends "blog/aptbase.html" %}
+{% block content %}
+        <div class="tphoto">
+            <img src = "https://bostonpads.com/wp-content/uploads/2017/11/studio-apartment-in-boston.jpg" title="tphoto" alt="Tinder Photo" width="500" height="400" />
+            <div class="tname">Beacon St, <span class="age">Allston</span></div>
+            <div class="tinfo"><i class="fa fa-book" aria-hidden="true"> 0</i><i class="fa fa-users" aria-hidden="true"> 0</i></div>
+        </div>
+
+          <br>
+          <br>
+
+            <div class="price">Price: $5500 Per Month</div>
+            <br>
+            <br>
+            <div class="fee">Fee: Two Month's Rent</div>
+            <br>
+            <br>
+            <div class="duration">Duration: 12 Months</div>
+            <br>
+            <br>
+            <div class="begining">Begining: 5/1</div>
+{% endblock content %}
+{% block link1 %}
+    <a href = "{% url 'blog-apt3' %}">
+{% endblock link1 %}
+
+{% block link2 %}
+    <a href = "{% url 'blog-apt3' %}">
+{% endblock link2 %}

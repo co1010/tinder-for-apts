@@ -1,0 +1,29 @@
+{% extends "blog/aptbase.html" %}
+{% block content %}
+        <div class="tphoto">
+            <img src = "https://www.westsquareboston.com/imgs/Residences/west-square-residences-2.jpg" title="tphoto" alt="Tinder Photo" width="500" height="400" />
+            <div class="tname">Comm Ave, <span class="age">Fenway</span></div>
+            <div class="tinfo"><i class="fa fa-book" aria-hidden="true"> 0</i><i class="fa fa-users" aria-hidden="true"> 0</i></div>
+        </div>
+
+          <br>
+          <br>
+
+            <div class="price">Price: $2500 Per Month</div>
+            <br>
+            <br>
+            <div class="fee">Fee: $1500</div>
+            <br>
+            <br>
+            <div class="duration">Duration: 12 Months</div>
+            <br>
+            <br>
+            <div class="begining">Begining: 9/1</div>
+{% endblock content %}
+{% block link1 %}
+    <a href = "{% url 'blog-home' %}">
+{% endblock link1 %}
+
+{% block link2 %}
+    <a href = "{% url 'blog-home' %}">
+{% endblock link2 %}

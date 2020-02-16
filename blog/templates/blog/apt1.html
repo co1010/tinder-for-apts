@@ -1,0 +1,29 @@
+{% extends "blog/aptbase.html" %}
+{% block content %}
+        <div class="tphoto">
+            <img src = "https://external-preview.redd.it/kgUO93EzW6u38om6tG5TYvrhL6BEpcnD_bKkAruy5qc.jpg?auto=webp&s=81dc5d79ae51ed983fab6c3f8fc5ae70f67b3c68" title="tphoto" alt="Tinder Photo" width="500" height="400" />
+            <div class="tname">North Beacon St, <span class="age">Allston</span></div>
+            <div class="tinfo"><i class="fa fa-book" aria-hidden="true"> 0</i><i class="fa fa-users" aria-hidden="true"> 0</i></div>
+        </div>
+
+          <br>
+          <br>
+
+            <div class="price">Price: $3500 Per Month</div>
+            <br>
+            <br>
+            <div class="fee">Fee: One Month's Rent</div>
+            <br>
+            <br>
+            <div class="duration">Duration: 12 Months</div>
+            <br>
+            <br>
+            <div class="begining">Begining: 9/1</div>
+{% endblock content %}
+{% block link1 %}
+    <a href = "{% url 'blog-apt2' %}">
+{% endblock link1 %}
+
+{% block link2 %}
+    <a href = "{% url 'blog-apt2' %}">
+{% endblock link2 %}
